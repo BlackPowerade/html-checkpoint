@@ -1,6 +1,39 @@
+*
+{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header
 {
     display: flex;
-    background-color: gray;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: darkgray;
+    justify-content: space-between;
+    color: white;
+}
+
+login
+{
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+form
+{
+    width: 100%;
+}
+
+.loginl
+{
+    display: block;
+    width: 100%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 

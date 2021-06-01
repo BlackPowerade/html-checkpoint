@@ -7,8 +7,12 @@
 header
 {
     display: flex;
-    padding-left: 1%;
-    padding-right: 1%;
+    position: sticky;
+    top: 0%;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
     background-color: darkgray;
     justify-content: space-between;
     color: white;
@@ -36,4 +40,26 @@ form
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
+ gallery
+ {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1vh 1vw;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    justify-items: center;
+ }
+
+ .poster
+ {
+     display: flex;
+     justify-content: center;
+     max-width: 20vw;
+     max-height: 40vh;
+     padding-top: 1vh;
+     padding-bottom: 1vh;
+ }
+
 
